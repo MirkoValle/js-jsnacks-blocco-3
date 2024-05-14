@@ -31,3 +31,25 @@ Probabilmente  conviene controllare che il numero di elementi della coda non sia
 Cartella: array_bonus
 Crea due array che hanno un numero di elementi diversi.
 Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
+
+
+
+SCOMPOSIZIONE:
+
+-Tutti Frutti:
+creo un array chiamato "frigorifero" e gli assegno la frutta contenuta
+pusho nel frigorifero la frutta "pesca"
+creo un ciclo che scorre tutti i frutti nell'array "frigorifero" che mi permette di cercare il frutto "cocomero" al suo interno
+    creo una costante del frutto da cercare, in questo caso cocomero, così da poterla confrontare con i frutti interni al frigorifero
+se la frutta è presente stampo risposta positiva, sennò negativa
+
+-La coda dell'array:
+creo un array vuota
+creo un prompt per chiedere all'utente la quantità di numeri che l'array dovrà contenere
+creo un ciclo che aggiunge all'array un numero casuale da 1 a 100, tante volte quanto il numero scelto dall'utente
+chiedo all'utente quanti numeri vule stampare
+creo un ciclo for che stampa partendo dalla fine la quantità dei numeri richiesta dall'utente
+
+-Bonus
+Work in progress...
+
