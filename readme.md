@@ -40,7 +40,7 @@ SCOMPOSIZIONE:
 creo un array chiamato "frigorifero" e gli assegno la frutta contenuta
 pusho nel frigorifero la frutta "pesca"
 creo un ciclo che scorre tutti i frutti nell'array "frigorifero" che mi permette di cercare il frutto "cocomero" al suo interno
-    creo una costante del frutto da cercare, in questo caso cocomero, così da poterla confrontare con i frutti interni al frigorifero
+    prima del ciclo creo una costante del frutto da cercare, in questo caso cocomero, così da poterla confrontare con i frutti interni al frigorifero
 se la frutta è presente stampo risposta positiva, sennò negativa
 
 -La coda dell'array:
