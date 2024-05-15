@@ -47,7 +47,7 @@ se la frutta è presente stampo risposta positiva, sennò negativa
 creo un array vuota
 creo un prompt per chiedere all'utente la quantità di numeri che l'array dovrà contenere
 creo un ciclo che aggiunge all'array un numero casuale da 1 a 100, tante volte quanto il numero scelto dall'utente
-chiedo all'utente quanti numeri vule stampare
+chiedo all'utente quanti numeri vu0le stampare
 creo un ciclo for che stampa partendo dalla fine la quantità dei numeri richiesta dall'utente
 
 -Bonus
