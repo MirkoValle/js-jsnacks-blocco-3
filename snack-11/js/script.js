@@ -7,10 +7,13 @@ let somma = 0;
 while (somma < 50) {
     let userNumber = Number.parseInt(prompt("inserisci un numero"), 10)
 
-    array.push(userNumber)
+    if (Number.isNaN(userNumber) !== true) {
+        array.push(userNumber);
 
-    somma += userNumber
-    console.log(array)
+        somma += userNumber
+        console.log(array)
+    }
+
 }
 
 
