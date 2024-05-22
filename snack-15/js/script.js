@@ -8,3 +8,5 @@ const palla = {
     nome: "palla",
     peso: 10,
 };
+
+palla.peso = Number.parseInt(prompt("Inserisci il peso della palla"), 10);
