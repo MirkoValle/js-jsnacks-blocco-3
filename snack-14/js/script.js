@@ -4,10 +4,10 @@
 let userNumber = Number.parseInt(prompt("Inserisci un numero"), 10);
 
 const clock = setInterval(function () {
-    userNumber--
-    console.log(userNumber)
+    userNumber--;
+    console.log(userNumber);
     if (userNumber <= 0) {
-        clearInterval(clock)
+        clearInterval(clock);
         alert("Fine")
     }
 
