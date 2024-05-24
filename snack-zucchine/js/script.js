@@ -30,12 +30,29 @@ let zucchineGrandi = [];
 
 ceste.forEach(zucchina => {
     if (zucchina.lunghezza > 8) {
-        zucchineGrandi.push(zucchina)
+        zucchineGrandi.push(zucchina);
     } else {
-        zucchinePiccole.push(zucchina)
+        zucchinePiccole.push(zucchina);
     }
 });
 
-console.log(zucchineGrandi)
-console.log(zucchinePiccole)
+console.log(zucchineGrandi);
+console.log(zucchinePiccole);
 
+let sumZucchinePiccole = 0;
+
+zucchinePiccole.forEach(zucchina => {
+    sumZucchinePiccole += zucchina.peso;
+});
+
+console.log(sumZucchinePiccole);
+console.log(parseInt(sumZucchinePiccole));
+
+let sumZucchineGrandi = 0;
+
+zucchineGrandi.forEach(zucchina => {
+    sumZucchineGrandi += zucchina.peso;
+});
+
+console.log(sumZucchineGrandi);
+console.log(parseInt(sumZucchineGrandi));
